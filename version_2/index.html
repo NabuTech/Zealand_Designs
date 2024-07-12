@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 & FontAwesome Skeleton</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <!-- Custom Styles -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="zealand_logo.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <form class="d-flex ms-auto position-relative">
+                        <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-custom" type="submit"><i class="bi bi-search search-icon"></i></button>
+                    </form>
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item vertical-links">
+                            <a class="nav-link" href="#">Contact Us</a>
+                            <hr>
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-cta" href="#">
+                                Schedule Now
+                                <i class="fas fa-calendar-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <nav class="top-navbar navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-collapse" id="topNavbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Individual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Employers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Schools and Colleges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Passport Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News and Updates</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Hero Section -->
+<section class="hero-section">
+  
+    <div class="hero-content text-center">
+        <h1 class="hero-headline">Simplify Your New Zealand Visa Application with Expert Assistance</h1>
+        <p class="hero-subheading">Personalized support, faster processing, and comprehensive guidance from start to finish</p>
+        <div class="hero-buttons">
+            <a href="#" class="btn btn-primary hero-button">Advisory Services</a>
+            <a href="#" class="btn btn-secondary hero-button">Business Services</a>
+        </div>
+    </div>
+</section>
+
+<!-- For Individuals Section -->
+<section class="for-individuals-section">
+    <div class="container">
+        <h2>
+            <a class="section-toggle" data-bs-toggle="collapse" href="#individualsSection" role="button" aria-expanded="false" aria-controls="individualsSection">
+                For Individuals <span class="caret">&#9662;</span>
+            </a>
+        </h2>
+        <div id="individualsSection" class="collapse">
+        <div class="accordion" id="individualsAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Students
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#individualsAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">On-Shore Student Applicants</a></li>
+                            <li class="list-group-item"><a href="#">Off-Shore Student Applicants</a></li>
+                            <li class="list-group-item"><a href="#">Fee Paying Student Visa</a></li>
+                            <li class="list-group-item"><a href="#">Pathway Student Visa</a></li>
+                            <li class="list-group-item"><a href="#">Exchange Student Visa</a></li>
+                            <li class="list-group-item"><a href="#">Dependant Child Student Visa</a></li>
+                            <li class="list-group-item"><a href="#">Foreign Government Supported Student Visa</a></li>
+                            <li class="list-group-item"><a href="#">Post Study Work Visa</a></li>
+                            <li class="list-group-item"><a href="#">Partner of a Student</a></li>
+                            <li class="list-group-item"><a href="#">Guardian of a Student</a></li>
+                            <li class="list-group-item"><a href="#">Dependant Child</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Visit
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#individualsAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">General Visit Visa</a></li>
+                            <li class="list-group-item"><a href="#">Group Visitor Visa</a></li>
+                            <li class="list-group-item"><a href="#">Business Visitor Visa</a></li>
+                            <li class="list-group-item"><a href="#">Parent and Grandparent</a></li>
+                            <li class="list-group-item"><a href="#">Medical Treatment</a></li>
+                            <li class="list-group-item"><a href="#">Guardian of a Student</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Work
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#individualsAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Accredited Employer Work Visa</a></li>
+                            <li class="list-group-item"><a href="#">Post Study Work Visa</a></li>
+                            <li class="list-group-item"><a href="#">Essential Skills Work Visa</a></li>
+                            <li class="list-group-item"><a href="#">Working Holiday Visa</a></li>
+                            <li class="list-group-item"><a href="#">Recognized Seasonal Employer Limited Visa</a></li>
+                            <li class="list-group-item"><a href="#">Specific Purpose Work Visa</a></li>
+                            <li class="list-group-item"><a href="#">Work to Residence</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Resident
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#individualsAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Straight to Residence</a></li>
+                            <li class="list-group-item"><a href="#">Work to Residence Visa</a></li>
+                            <li class="list-group-item"><a href="#">Parent Resident Visa</a></li>
+                            <li class="list-group-item"><a href="#">Partner of a New Zealand Resident Visa</a></li>
+                            <li class="list-group-item"><a href="#">Talent (Accredited Employer) Resident Visa</a></li>
+                            <li class="list-group-item"><a href="#">Specific Purpose Work Visa</a></li>
+                            <li class="list-group-item"><a href="#">Work to Residence</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Family
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#individualsAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Partners of New Zealand residents or citizens</a></li>
+                            <li class="list-group-item"><a href="#">Partner of a Student</a></li>
+                            <li class="list-group-item"><a href="#">Guardian of a Student</a></li>
+                            <li class="list-group-item"><a href="#">Parent Retirement</a></li>
+                            <li class="list-group-item"><a href="#">Parent</a></li>
+                            <li class="list-group-item"><a href="#">Dependant Child</a></li>
+                            <li class="list-group-item"><a href="#">Parent and Grandparent</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- For Employers Section -->
+<section class="for-employers-section">
+    <div class="container">
+        <h2>For Employers</h2>
+        <div class="accordion" id="employersAccordion">
+            <!-- Employer Accreditation -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Employer Accreditation
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-award"></i> <!-- Icon for Employer Accreditation -->
+                            </div>
+                            <div class="col-11">
+                                <p>Ensure your business is accredited to hire international employees.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Accreditation Compliance -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Accreditation Compliance
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-shield-check"></i> <!-- Icon for Accreditation Compliance -->
+                            </div>
+                            <div class="col-11">
+                                <p>Stay compliant with all accreditation requirements to ensure smooth operations.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Employee Visas -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Employee Visas
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-person-check"></i> <!-- Icon for Employee Visas -->
+                            </div>
+                            <div class="col-11">
+                                <p>Assistance with visa applications for your international employees.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Visa Applications -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Visa Applications
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-file-earmark-text"></i> <!-- Icon for Visa Applications -->
+                            </div>
+                            <div class="col-11">
+                                <p>Support with all types of visa applications to ensure a smooth process.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Compliance and Documentation -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Compliance and Documentation
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-folder-check"></i> <!-- Icon for Compliance and Documentation -->
+                            </div>
+                            <div class="col-11">
+                                <p>Ensure all compliance and documentation are up to date and accurate.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Recruitment Support -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        Recruitment Support
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-people"></i> <!-- Icon for Recruitment Support -->
+                            </div>
+                            <div class="col-11">
+                                <p>Comprehensive recruitment support to find and hire the best talent.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Policy Updates and Training -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNine">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        Policy Updates and Training
+                    </button>
+                </h2>
+                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-journal-bookmark"></i> <!-- Icon for Policy Updates and Training -->
+                            </div>
+                            <div class="col-11">
+                                <p>Stay informed about policy updates and receive training for compliance.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Employee Retention -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        Employee Retention
+                    </button>
+                </h2>
+                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-person-heart"></i> <!-- Icon for Employee Retention -->
+                            </div>
+                            <div class="col-11">
+                                <p>Strategies and support to retain your valuable employees.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Legal Advice -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEleven">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                        Legal Advice
+                    </button>
+                </h2>
+                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#employersAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-briefcase"></i> <!-- Icon for Legal Advice -->
+                            </div>
+                            <div class="col-11">
+                                <p>Receive expert legal advice on employment and immigration matters.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Schools and Colleges Section -->
+<section class="schools-colleges-section">
+    <div class="container">
+        <h2>Schools and Colleges</h2>
+        <div class="accordion" id="schoolsAccordion">
+            <!-- International Students -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwelve">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                        International Students
+                    </button>
+                </h2>
+                <div id="collapseTwelve" class="accordion-collapse collapse show" aria-labelledby="headingTwelve" data-bs-parent="#schoolsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-globe"></i> <!-- Icon for International Students -->
+                            </div>
+                            <div class="col-11">
+                                <p>Support for international students, including visa applications and compliance.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Partner Institutes -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThirteen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                        Partner Institutes
+                    </button>
+                </h2>
+                <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#schoolsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-building"></i> <!-- Icon for Partner Institutes -->
+                            </div>
+                            <div class="col-11">
+                                <p>Collaborate with partner institutes for seamless student exchange programs.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Visa Support for Staff -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFourteen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                        Visa Support for Staff
+                    </button>
+                </h2>
+                <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#schoolsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-person-badge"></i> <!-- Icon for Visa Support for Staff -->
+                            </div>
+                            <div class="col-11">
+                                <p>Comprehensive visa support for staff to ensure compliance and smooth operations.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Passports Support Section -->
+<section class="passports-support-section">
+    <div class="container">
+        <h2>Passports Support</h2>
+        <div class="accordion" id="passportsAccordion">
+            <!-- Indian Renew Passport -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFifteen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+                        Indian Renew Passport
+                    </button>
+                </h2>
+                <div id="collapseFifteen" class="accordion-collapse collapse show" aria-labelledby="headingFifteen" data-bs-parent="#passportsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-recycle"></i> <!-- Icon for Indian Renew Passport -->
+                            </div>
+                            <div class="col-11">
+                                <p>Assistance with renewing your Indian passport efficiently and promptly.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Indian New Passport (Child) -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSixteen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                        Indian New Passport (Child)
+                    </button>
+                </h2>
+                <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#passportsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-person-plus"></i> <!-- Icon for Indian New Passport (Child) -->
+                            </div>
+                            <div class="col-11">
+                                <p>Get support for obtaining a new Indian passport for your child.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- India OCI Submission -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeventeen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                        India OCI Submission
+                    </button>
+                </h2>
+                <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#passportsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-file-earmark"></i> <!-- Icon for India OCI Submission -->
+                            </div>
+                            <div class="col-11">
+                                <p>Guidance and support for submitting your Overseas Citizenship of India (OCI) application.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- India Visit Visa -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEighteen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+                        India Visit Visa
+                    </button>
+                </h2>
+                <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#passportsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-flag"></i> <!-- Icon for India Visit Visa -->
+                            </div>
+                            <div class="col-11">
+                                <p>Get help with obtaining a visa to visit India for tourism or business.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Other Countries Passport -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNineteen">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+                        Other Countries Passport
+                    </button>
+                </h2>
+                <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#passportsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-flag"></i> <!-- Icon for Other Countries Passport -->
+                            </div>
+                            <div class="col-11">
+                                <p>Assistance with passport applications for other countries.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- NZ Passport Submission -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwenty">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+                        NZ Passport Submission
+                    </button>
+                </h2>
+                <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty" data-bs-parent="#passportsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="bi bi-file-earmark-person"></i> <!-- Icon for NZ Passport Submission -->
+                            </div>
+                            <div class="col-11">
+                                <p>Help with submitting your New Zealand passport application efficiently.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" class="further-info-link">Further Information >>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Immigration News and Info Section -->
+<section class="news-updates-section">
+    <div class="container">
+        <h2>Immigration News and Info</h2>
+        <div class="media-link">
+            <a href="https://www.immigration.govt.nz/about-us/media-centre" target="_blank">
+                Check out this link for the latest news from New Zealand Immigration.
+            </a>
+        </div>
+        <div class="blog-previews">
+            <div class="blog-post">
+                <img src="thumbnail1.jpg" alt="Blog Thumbnail" class="blog-thumbnail">
+                <div class="blog-details">
+                    <h3 class="blog-title">Title of the Blog Post</h3>
+                    <p class="blog-author">By Author Name</p>
+                    <p class="blog-date">Date of Publication</p>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img src="thumbnail2.jpg" alt="Blog Thumbnail" class="blog-thumbnail">
+                <div class="blog-details">
+                    <h3 class="blog-title">Title of the Blog Post</h3>
+                    <p class="blog-author">By Author Name</p>
+                    <p class="blog-date">Date of Publication</p>
+                </div>
+            </div>
+            <div class="more-news-link">
+                <a href="#">See More News and Information</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact and Support Section -->
+<section class="contact-support-section">
+    <div class="container">
+        <h2>Contact and Support</h2>
+        <div class="contact-form">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>Phone Number:</strong> +64 123 456 789</p>
+            <p><strong>Email Address:</strong> contact@nzimmigration.com</p>
+            <p><strong>New Zealand Address:</strong> 123 Immigration Street, Wellington, New Zealand</p>
+            <p><strong>India Address:</strong> 456 Visa Road, New Delhi, India</p>
+            <img src="path/to/google-map-image.jpg" alt="Google Map" class="google-map">
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="container">
+        <p>Footer Content</p>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
