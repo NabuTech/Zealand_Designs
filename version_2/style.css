@@ -14,7 +14,7 @@
     --color-neutral-light: #6C757D; /* Neutral Gray */
     --color-neutral-dark: #343A40; /* Dark Gray */
     --color-background: #F4F4F9; /* Light Background */
-    --color-background-alt1: #EAF2EF; /* Alternative Light Background */
+    --color-background-alt1: #D8E3DE; /* Alternative Light Background */
     --color-background-alt2: #D9F0E7; /* Another Light Background */
     --color-background-alt3: #FFFFFF; /* White */
     --color-text-primary: #343A40; /* Dark Gray for text */
@@ -260,7 +260,7 @@ form:hover .search-input {
 .section-toggle {
     display: block;
     text-decoration: none;
-    color: var(--color-primary-dark);
+    color: var(--color-secondary);
     font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
@@ -269,7 +269,8 @@ form:hover .search-input {
 }
 
 .section-toggle:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--color-secondary-light);
 }
 
 .section-toggle .caret {

@@ -1,0 +1,355 @@
+/* Remove vertical padding/margin between elements */
+body, .navbar, .main-nav, .nav-item, .nav-link, .hero-section, .row.no-gutters, .col-md-6 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Custom styles for navigation */
+.navbar {
+    padding: 0.25rem 0.5rem; /* Reduce padding */
+    font-size: 0.625rem; /* Smaller font size */
+}
+
+.navbar-brand img {
+    height: 50px; /* Increase logo size */
+}
+
+.nav-link {
+    padding: 0 5px;
+    color: #6c757d; /* Lighter shade of gray */
+}
+
+.nav-link-separator {
+    color: inherit; /* Use inherited color from parent element */
+    font-size: inherit; /* Use inherited font size from parent element */
+    padding: 0 5px;
+    line-height: 1;
+}
+
+/* Custom styles for the main navigation */
+.main-nav {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ebebec;
+    padding: 0.25rem 0; /* Reduce padding */
+    font-size: 0.625rem; /* Smaller font size */
+}
+
+.main-nav .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-nav .nav-link {
+    color: #000;
+    padding: 5px 8px;
+    font-size: 0.75rem; /* Smaller font size */
+    font-weight: bold; /* Make the links bold */
+    text-decoration: none;
+    position: relative;
+}
+
+.main-nav .nav-link:hover {
+    color: #de1e25;
+}
+
+/* Dropdown menu styles */
+.main-nav .dropdown-menu {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    width: 250px;
+    padding: 5px; /* Padding for the dropdown menu */
+    border-top: 3px solid #de1e25; /* Red top border */
+    border-radius: 8px; /* Border radius for the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    position: absolute; /* Ensure dropdown does not push down other elements */
+}
+
+.main-nav .dropdown-item {
+    font-size: 0.625rem; /* Inherit main nav font size */
+    font-weight: bold; /* Bold text */
+    padding: 5px 8px; /* Padding for left and right */
+    color: #000000; /* Black text */
+}
+
+.main-nav .dropdown-item:hover {
+    background-color: #de1e25; /* Light red background on hover */
+    color: #ffffff; /* White text on hover */
+    border-radius: 8px; /* Border radius for the links on hover */
+}
+
+/* Custom styles for the hero section */
+.hero-section {
+    background: url('hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 30px 0; /* Reduce padding */
+    height: 70vh; /* Reduce height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-text-left {
+    text-align: left;
+    margin-left: 3%; /* Adjust margin */
+}
+
+.hero-text-right {
+    text-align: right;
+    margin-right: 3%; /* Adjust margin */
+}
+
+.hero-text h1 {
+    font-size: 1.5rem; /* Slightly smaller heading */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow */
+}
+
+.hero-text p {
+    font-size: 0.875rem; /* Slightly smaller text */
+    margin-bottom: 15px;
+    color: black;
+}
+
+.cta-btn {
+    background: linear-gradient(to right, #8a000a 0%, #de1e25 100%);
+    color: white;
+    padding: 6px 15px; /* Slightly smaller padding */
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75rem; /* Slightly smaller button text */
+}
+
+.cta-btn:hover {
+    background: linear-gradient(to right, #de1e25 0%, #8a000a 100%);
+    color: white;
+}
+
+/* Custom styles for the Schedule Now button */
+.schedule-btn {
+    background: linear-gradient(to right, #8a000a 0%, #de1e25 100%);
+    color: white;
+    padding: 6px 10px; /* Slightly smaller padding */
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.75rem; /* Smaller font size */
+}
+
+.schedule-btn:hover {
+    background: linear-gradient(to right, #de1e25 0%, #8a000a 100%);
+    color: white;
+}
+
+/* Custom styles for the search button */
+.search-btn {
+    border: none;
+    background: transparent;
+    color: #000;
+}
+
+.search-icon {
+    font-size: 1.25rem;
+}
+
+/* Custom styles for the info section */
+.info-section {
+    background-color: #f8f9fa; /* Subtle background color */
+    width: 100%; /* Full width */
+    padding: 20px 0; /* Padding for top and bottom */
+    display: flex;
+    justify-content: center;
+}
+
+.info-text {
+    width: 90%; /* 90% width */
+    text-align: center; /* Centered text */
+}
+
+.info-text p {
+    font-size: 0.75rem;
+    color: #333; /* Darker text color */
+}
+
+.individuals-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #e2e6ea; /* Different shade for individuals-section */
+}
+
+.col-left {
+    flex: 1;
+    padding: 20px 30px; /* Adjust padding as needed */
+    margin-top: 20px; /* Add margin top */
+    margin-bottom: 20px; /* Add margin bottom */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+}
+
+.col-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-around; /* Add space between columns */
+    padding: 20px 0 20px 0; /* Remove left padding */
+    margin-left: 0; /* Remove left margin */
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove bottom padding */
+    margin-right: 20px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the cards vertically */
+    padding-top: 30px; /* Add top padding */
+    padding-bottom: 30px; /* Add bottom padding */
+}
+
+.central-column {
+    padding-top: 100px; /* Increase top padding */
+    padding-bottom: 100px; /* Increase bottom padding */
+    padding-left: 20px; /* Add left padding */
+    padding-right: 20px; /* Add right padding */
+}
+
+.col-left h2 {
+    font-size: 1.5rem; /* Adjusted font size */
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-left h3 {
+    font-size: 0.875rem; /* Smaller font size than h2 */
+    font-weight: 200; 
+    line-height: 1.3; /* Adjusted line height */
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-left p {
+    color: #6c757d;
+    font-size: 0.75rem; /* Adjusted font size */
+    font-family: 'Roboto', sans-serif;
+}
+
+.individuals-list, .benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #de1e25;
+    font-size: 0.7rem; /* Adjusted font size */
+}
+
+.individuals-list li, .benefits-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.individuals-list li i, .benefits-list li i {
+    margin-right: 10px;
+    color: #de1e25;
+}
+
+.animated-item {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.animated-item:nth-child(odd) {
+    animation-name: slideInLeft; /* Animate from left */
+}
+
+.animated-item:nth-child(even) {
+    animation-name: slideInRight; /* Animate from right */
+}
+
+.animated-benefit {
+    opacity: 0;
+    animation: slideInBottom 2s forwards;
+    animation-delay: 3s; /* Delay after first list animations */
+    animation-timing-function: ease-in-out;
+}
+
+/* Keyframes for animations */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    background-color: #d4d9dc; /* Slightly darker shade than section background */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: auto; /* Adjust card height as needed */
+    padding: 10px; /* Add padding to ensure background color covers the whole card */
+    box-sizing: border-box; /* Ensure padding is included in the height calculation */
+    display: flex;
+    flex-direction: column; /* Ensure content stacks vertically */
+    justify-content: space-between; /* Space out content vertically */
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; /* Remove additional padding */
+}
+
+.card-title {
+    font-size: 0.875rem; /* Adjust font size */
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+}
+
+.btn-link {
+    font-size: 1rem; /* Adjust font size */
+    color: #de1e25;
+}
+
+.card-img-top {
+    padding: 5px; /* Reduce padding for images */
+    border-radius: 8px; /* Add border-radius to images */
+    height: 60%; /* Set a percentage height for the images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
