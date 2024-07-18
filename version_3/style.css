@@ -1131,3 +1131,108 @@ body, .navbar, .main-nav, .nav-item, .nav-link, .hero-section, .row.no-gutters, 
 }
 
 
+
+/* Specific Section Below Footer */
+.image-container {
+    height: 33vh; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-bottom: 20px; /* Added margin below image container */
+}
+
+.image-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container-my4 {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevents overflow and scrolls the parent */
+    scroll-snap-type: y mandatory; /* Enable snap scrolling */
+    scroll-padding-top: 20px; /* Padding to ensure content doesn't touch the top */
+}
+
+.individuals-info {
+    height: 100%; /* Full height of the parent */
+    overflow-y: auto; /* Allow vertical scrolling */
+    padding-right: 20px;
+    scroll-snap-align: start; /* Snap the left column to start */
+}
+
+.contact-form-container {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .cta-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown-container {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.dropdown-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown-heading:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-heading span {
+    font-size: 1.25rem;
+}
+
+.btn-circle {
+    border: none;
+    background: none;
+    font-size: 1.25rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    margin-left: 15px; /* Indentation for the content */
+}
+
+.dropdown-content.active {
+    display: block;
+}
+
+.sub-heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sub-text {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>For Individuals</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <!-- Custom Styles -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="zealand_logo.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="d-flex ms-3 align-items-center">
+                        <button class="btn btn-outline-custom search-btn" type="button">
+                            <i class="bi bi-search search-icon"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <span class="nav-link-separator">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn schedule-btn" href="#">
+                                Schedule Now
+                                <i class="fas fa-calendar-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="main-nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="individualsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    For Individuals
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="individualsDropdown">
+                    <li><a class="dropdown-item" href="#">Student Visas</a></li>
+                    <li><a class="dropdown-item" href="#">Visit Visa</a></li>
+                    <li><a class="dropdown-item" href="#">Work Visas</a></li>
+                    <li><a class="dropdown-item" href="#">Resident Visas</a></li>
+                    <li><a class="dropdown-item" href="#">Family Visas</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="employersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    For Employers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="employersDropdown">
+                    <li><a class="dropdown-item" href="#">Employer Accreditation</a></li>
+                    <li><a class="dropdown-item" href="#">Employee Visas</a></li>
+                    <li><a class="dropdown-item" href="#">Job Check</a></li>
+                    <li><a class="dropdown-item" href="#">Legal Advice on Immigration</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">School and Colleges</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Passports Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Immigration News and Updates</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="container-fluid for-individuals-main">
+    <div class="row image-container">
+        <img src="students.jpg" alt="For Individuals" class="img-fluid">
+    </div>
+    <div class="row container-my4">
+        <div class="col-lg-8 individuals-info">
+            <h1>For Individuals</h1>
+            <div class="dropdown-container">
+                <!-- Dropdown Sections for Individuals -->
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Student Visas</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <h2 class="sub-heading">On-Shore Student Applicants</h2>
+                        <p class="sub-text">Apply while in New Zealand. Continue your studies without leaving the country.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Off-Shore Student Applicants</h2>
+                        <p class="sub-text">Apply from outside New Zealand. Start your educational journey in a new country.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Fee Paying Student Visa</h2>
+                        <p class="sub-text">For students who pay full tuition fees. Allows you to study full-time in New Zealand.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Pathway Student Visa</h2>
+                        <p class="sub-text">Study up to 3 consecutive courses on a single visa. Ideal for long-term study visas.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Exchange Student Visa</h2>
+                        <p class="sub-text">For students on approved exchange programs. Experience New Zealand's education system temporarily.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Dependant Child Student Visa</h2>
+                        <p class="sub-text">For children of eligible work or student visa holders. Allows them to study in New Zealand.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Foreign Government Supported Student Visa</h2>
+                        <p class="sub-text">For students funded by foreign governments. Study in New Zealand with financial support from your home country.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Post Study Work Visa</h2>
+                        <p class="sub-text">For recent graduates from New Zealand institutions. Gain valuable work experience in your field of study.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Partner of a Student</h2>
+                        <p class="sub-text">For partners of student visa holders. Work in New Zealand while your partner studies.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Guardian of a Student</h2>
+                        <p class="sub-text">For guardians of international students. Stay in New Zealand to support your child's education.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Dependant Child</h2>
+                        <p class="sub-text">For dependant children of New Zealand citizens or residents. Live with your family in New Zealand.</p>
+                    </div>
+                </div>
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Visit Visas</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <h2 class="sub-heading">General Visit Visas</h2>
+                        <p class="sub-text">For tourists and short-term visitors. Explore New Zealand's beauty and culture.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Group Visitor Visa</h2>
+                        <p class="sub-text">For groups traveling together. Simplifies the visa process for group trips.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Business Visitor Visa</h2>
+                        <p class="sub-text">For business-related visits. Attend meetings, conferences, or explore business opportunities.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Parent and Grandparent (Visitor Visa)</h2>
+                        <p class="sub-text">For parents and grandparents of New Zealand citizens or residents. Spend quality time with your family in New Zealand.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Medical Treatment (Visitor Visa)</h2>
+                        <p class="sub-text">For those seeking medical treatment in New Zealand. Access world-class healthcare services.</p>
+                    </div>
+                </div>
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Work Visas</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Accredited Employer Work Visa</h2>
+                        <p class="sub-text">For those with a job offer from an accredited employer. Work in New Zealand with a trusted employer.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Post Study Work Visa</h2>
+                        <p class="sub-text">For recent graduates from New Zealand institutions. Gain valuable work experience in your field of study.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Essential Skills Work Visa</h2>
+                        <p class="sub-text">For workers with skills in demand. Fill critical roles in New Zealand's workforce.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Working Holiday Visa</h2>
+                        <p class="sub-text">For young travellers from eligible countries. Work and travel in New Zealand for up to a year.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Recognized Seasonal Employer Limited Visa</h2>
+                        <p class="sub-text">For seasonal agricultural work. Help with New Zealand's harvests and earn money.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Specific Purpose Work Visa</h2>
+                        <p class="sub-text">For a specific job or project. Complete your work assignment in New Zealand.</p>
+                    </div>
+                </div>
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Resident Visas</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Straight to Residence</h2>
+                        <p class="sub-text">For highly skilled workers in critical sectors. Obtain residence immediately upon approval.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Work to Residence Visa</h2>
+                        <p class="sub-text">Transition from a work visa to residence. Build your life in New Zealand while working.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Parent Resident Visa</h2>
+                        <p class="sub-text">For parents of New Zealand citizens or residents. Reunite with your family and live in New Zealand.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Partner of a New Zealand Resident Visa</h2>
+                        <p class="sub-text">For partners of New Zealand citizens or residents. Live together in New Zealand permanently.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Talent (Accredited Employer) Resident Visa</h2>
+                        <p class="sub-text">For those with a job offer from an accredited employer. Secure residence through your employment.</p>
+                    </div>
+                </div>
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Family Visas</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Partners of New Zealand residents or citizens</h2>
+                        <p class="sub-text">For partners of New Zealand citizens or residents. Live together in New Zealand permanently.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Partner of a Student (Work Visa)</h2>
+                        <p class="sub-text">For partners of student visa holders. Work in New Zealand while your partner studies.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Guardian of a Student (Visitor Visa)</h2>
+                        <p class="sub-text">For guardians of international students. Stay in New Zealand to support your child's education.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Parent Retirement (Resident Visa)</h2>
+                        <p class="sub-text">For parents who wish to retire in New Zealand. Enjoy your retirement with your family in a beautiful country.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Parent (Resident Visa)</h2>
+                        <p class="sub-text">For parents of New Zealand citizens or residents. Reunite with your family and live permanently in New Zealand.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Dependant Child (Resident Visa)</h2>
+                        <p class="sub-text">For dependant children of New Zealand citizens or residents. Live with your family in New Zealand.</p>
+                    </div>
+                    <div class="sub-section">
+                        <h2 class="sub-heading">Parent and Grandparent (Visitor Visa)</h2>
+                        <p class="sub-text">For parents and grandparents visiting their family. Spend extended time with your loved ones in New Zealand.</p>
+                    </div>
+                </div>
+                                                
+                <!-- Additional Dropdown Sections for Individuals -->
+            </div>
+            <h1>Complex Cases</h1>
+            <div class="dropdown-container">
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>PPI Response</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">When Immigration New Zealand identifies potentially prejudicial information (PPI) that could negatively impact a visa application, they issue a PPI letter to the applicant, allowing them to respond with additional evidence. Zealand immigration advisors can assist by crafting a clear, comprehensive, and well-supported response to address the concerns raised.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>RFI Response</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">If Immigration New Zealand issues a request for information (RFI), they seek additional details or documents to make a decision on a visa application. Zealand immigration advisors can assist by providing clear, detailed responses and supporting evidence to address the specific concerns raised.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>DLN Response</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">If Immigration New Zealand issues a Deportation Liability Notice (DLN), it indicates that the applicant is liable for deportation due to visa breaches or other issues. Zealand immigration advisers can assist by promptly preparing a detailed response and, if necessary, lodging an appeal with the Immigration and Protection Tribunal.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Section 61 Requests</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">Section 61 request allows individuals unlawfully in New Zealand to apply for a visa under special circumstances. Zealand immigration advisers can assist by preparing a compelling application with strong supporting evidence to maximize the chances of appeal.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Declined Residence Application</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">If Immigration New Zealand declines a residence application, the applicant can appeal to the Immigration and Protection Tribunal within a stipulated period. Zealand immigration advisers can assist by preparing a strong appeal, addressing the reasons for the decline, and presenting new evidence if necessary.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Refugee Request</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">Refugee Request allows individuals fearing persecution to apply for refugee status. New Zealand Immigration advisers can assist by preparing a thorough application with strong evidence and guiding the applicant through the interview and submission process.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Domestic Violence</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">When Immigration New Zealand processes a case involving domestic violence, they may grant a special visa to allow the victim to stay in the country. Zealand immigration advisers can assist by preparing a strong application with detailed evidence and guiding the applicant through the process.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Ministerial Appeals</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">When making a Ministerial Appeal, applicants seek the Minister of Immigration's intervention for exceptional cases. Zealand immigration advisers can assist by preparing a well-documented appeal highlighting unique circumstances and justifications for the Minister's intervention.</p>
+                    </div>
+                </div>
+                <div class="dropdown-heading" onclick="toggleDropdown(this)">
+                    <span>Legal Opinion</span>
+                    <button class="btn-circle">&gt;</button>
+                </div>
+                <div class="dropdown-content">
+                    <div class="sub-section">
+                        <p class="sub-text">Legal opininions provide professional advice on immigration matters. These responses analyse specific situations, interpret relevant laws, and guide individuals on their best course of action.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 contact-form-container sticky-form">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary cta-btn">
+                    <i class="fas fa-envelope"></i> Submit Now
+                </button>
+            </form>
+        </div>
+    </div>
+</main>
+    
+   
+    
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col-left">
+                    <img src="zealand_logo.png" alt="Logo" class="footer-logo">
+                    <p>Zealand Immigration is not just a service provider but a partner in the exciting journey to a new life or business venture in New Zealand.</p>
+                    <div class="footer-links">
+                        <a href="#">Contact Us</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">FAQ</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Privacy Policy</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Cookie Preferences</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+                <div class="footer-col-right">
+                    <h2>Subscribe</h2>
+                    <p>Stay updated with the latest immigration insights - join our newsletter.</p>
+                    <form class="footer-subscribe-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="cta-btn">Submit Now</button>
+                    </form>
+                    <div class="footer-links">
+                        <a href="#">Local Language Information</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Accessibility Statement</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-row">
+                <p class="footer-copyright">&copy; 2024 Zealand Immigration. All rights reserved.</p>
+                <div class="footer-social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script>
+        function toggleDropdown(element) {
+            var content = element.nextElementSibling;
+            content.classList.toggle('active');
+            var button = element.querySelector('.btn-circle');
+            if (content.classList.contains('active')) {
+                button.innerHTML = '&darr;';
+            } else {
+                button.innerHTML = '&gt;';
+            }
+        }
+        </script>
+
+</body>
+</html>
