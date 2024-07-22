@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <!-- Custom Styles -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="zealand_logo.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="d-flex ms-3 align-items-center">
+                        <button class="btn btn-outline-custom search-btn" type="button">
+                            <i class="bi bi-search search-icon"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <span class="nav-link-separator">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn schedule-btn" href="#">
+                                Schedule Now
+                                <i class="fas fa-calendar-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="main-nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">For Individuals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">For Employers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">School and Colleges</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Passports Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Immigration News and Updates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Sign In</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="sign-in-section">
+        <div class="container">
+            <div id="login-section" class="text-center my-5">
+                <h2 class="mb-4">Sign In</h2>
+                <form id="mock-login-form">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+            <div id="options-section" class="text-center my-5" style="display: none;">
+                <h2 class="mb-4">Welcome</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <button id="btn-request-status" class="btn btn-outline-primary">Request Status</button>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <button id="btn-request-callback" class="btn btn-outline-primary">Request Callback</button>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <button id="btn-upload-files" class="btn btn-outline-primary">Upload Files</button>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <button id="btn-payment" class="btn btn-outline-primary">Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col-left">
+                    <img src="zealand_logo.png" alt="Logo" class="footer-logo">
+                    <p>Zealand Immigration is not just a service provider but a partner in the exciting journey to a new life or business venture in New Zealand.</p>
+                    <div class="footer-links">
+                        <a href="#">Contact Us</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">FAQ</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Privacy Policy</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Cookie Preferences</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+                <div class="footer-col-right">
+                    <h2>Subscribe</h2>
+                    <p>Stay updated with the latest immigration insights - join our newsletter.</p>
+                    <form class="footer-subscribe-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="cta-btn">Submit Now</button>
+                    </form>
+                    <div class="footer-links">
+                        <a href="#">Local Language Information</a>
+                        <span class="footer-link-separator">|</span>
+                        <a href="#">Accessibility Statement</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-row">
+                <p class="footer-copyright">&copy; 2024 Zealand Immigration. All rights reserved.</p>
+                <div class="footer-social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <!-- Simulate Auth0 JavaScript -->
+    <script>
+        document.getElementById('mock-login-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Simulate login success
+            document.getElementById('login-section').style.display = 'none';
+            document.getElementById('options-section').style.display = 'block';
+        });
+
+        document.getElementById('btn-request-status').addEventListener('click', function() {
+            alert('Request Status: API call to CRM to send email.');
+        });
+
+        document.getElementById('btn-request-callback').addEventListener('click', function() {
+            alert('Request Callback: Email sent to business email requesting a call.');
+        });
+
+        document.getElementById('btn-upload-files').addEventListener('click', function() {
+            alert('Upload Files: Send document to CRM.');
+        });
+
+        document.getElementById('btn-payment').addEventListener('click', function() {
+            alert('Payment: Stripe Form.');
+        });
+    </script>
+</body>
+</html>
